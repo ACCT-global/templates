@@ -1,10 +1,7 @@
 # Bug
 
-## Overview
-
-_Aqui vai uma explicação do bug, porque é um bug, comportamento atual e comportamento esperado, além de um link direto para a issue a qual o MR está ligado_
-
-- _Nesta sessão também deverá ser explicitado se esse bugfix é uma correção simples, um bugfix que acarretará na mudança do comportamento de alguma funcionalidade parcialmente ou totalmente ou se alguma informação referente a documentação ficará obsoleta e precisará ser atualizada._
+## Fix Type:
+- _Nesta sessão deverá ser explicitado se esse bugfix é uma correção simples, um bugfix que acarretará na mudança do comportamento de alguma funcionalidade parcialmente ou totalmente ou se alguma informação referente a documentação ficará obsoleta e precisará ser atualizada._
 
 - [x] - Minor Bugfix.
 
@@ -14,13 +11,19 @@ _Aqui vai uma explicação do bug, porque é um bug, comportamento atual e compo
 
 _**OBS: Deletar checkboxes que não são se aplicam ao Merge Request.**_
 
+## Overview:
+
+_Aqui vai uma explicação do bug, porque é um bug, comportamento atual e comportamento esperado, além de um link direto para a issue a qual o MR está ligado_
+
 >Ex:
 > - Comportamento atual: Botão de adicionar mais 1 item ao carrinho de compras não dá nenhum feedback que a ação ocorreu ao ser clicado.
 > - Comportamento esperado: Botão deve entrar em um estado suspenso tanto para dar um feedback para o usuário quanto para impedir adições subsequentes antes que a mudança de quantidade ocorra.
-> - ### **Related Issues:**
->   - [#512](https://google.com.br)
+- ### **Related Issues:**
+  - [#12](https://google.com.br)
+  - [#25](https://google.com.br)
+  - [#99](https://google.com.br)
 
-## Reproduction Steps
+## Reproduction Steps:
 
 _Passo a passo para reprodução do bug, se for reproduzível e em qual ou quais ambientes o bug é reproduzível._
 
@@ -38,7 +41,7 @@ _Passo a passo para reprodução do bug, se for reproduzível e em qual ou quais
 >- 4. Aperte no botão com símbolo de (+) ao lado do produto.
 >- 5. Veja que o botão não dá nenhum feedback apesar da pequena demora para a quantidade de itens serem alterados no campo que mostra a quantidade logo ao lado do botão.
 
-## Proposed Solution
+## Proposed Solution:
 
 _Solução proposta para o dado problema._
 
@@ -47,7 +50,7 @@ _Solução proposta para o dado problema._
 >Ex_1: 
 >- O melhor caso é adicionar uma propriedade de loading no componente do botão. Assim sendo possível minar a possibilidade de multiplas requests por multiplos cliques e também retornar um feedback de que algo está acontecendo para o usuário.
 
-## Acceptance Requirements
+## Acceptance Requirements:
 _Os mesmos requisitos de aceitação, o que o seu Merge está corrigindo e quais passos ele deve obedecer._
 
 >Ex:
@@ -56,7 +59,7 @@ _Os mesmos requisitos de aceitação, o que o seu Merge está corrigindo e quais
 > - [x] Retornar uma mensagem de erro caso receba um retorno inesperado da Api.
 > - [x] Retornar botão para estado inicial e mostrar quantidade correta no contador ao receber o OK da Api.
 
-## Additional/External Resources
+## Additional/External Resources:
 _Links para documentação de assets ou qualquer recurso adicional se foram utilizados._
 
 - _Estão inclusos em recursos adicionais qualquer parte advinda de terceiros, normalmente Libs que não são padrões do projeto._ 
@@ -88,14 +91,16 @@ Master-Data-Info:
 }
 ```
 
-## Not Related changes
+## Related Changes:
 
 _Alguma mudança específica que não estava prevista para ser feita, porém, foi necessária pois estava relacionada ao escopo do seu MR_
+
+_Se caso for um tipo de bugfix que precise de mudança de documentação, adicionar também link para documentação e ou onde é possível encontra-la._
 
 >Ex:
 >- Correção de bug que não permitia armazenamento de informação no local storage através de função no contexto.
 
-## Demo/Workspace
+## Demo/Workspace:
 
 _Devido a natureza do bug, há a necessidade de demonstrar como o comportamento estava e como está, seja através de um link para a issue que já possui essa informação em forma de gif/vídeo/image ou seja através dos steps realizados pelo próprio desenvolvedor._
 
@@ -105,7 +110,7 @@ _Devido a natureza do bug, há a necessidade de demonstrar como o comportamento 
 >- [Vídeo/Gif/Foto demonstrando comportamento atual (errado)](https://gitlab.com/)
 >- [Vídeo/Gif/Foto hospedado em outro lugar demonstrando comportamento esperado](https://gitlab.com/) ou [Workspace corrigido](https://gitlab.com/)
 
-## Test Environment
+## Test Environment:
 _Descrever aqui, se existir, como reproduzir testes unitários/integração e em quais ambientes tais testes ocorreram ou são possíveis de ser executados._
 
 - _Se possível e ou aplicável, um overview do coverage, seja em forma de foto/gif/vídeo, fica a critério de quem está criando o MR ou lógica interna do time._

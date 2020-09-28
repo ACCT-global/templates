@@ -1,6 +1,6 @@
 # Improvement
 
-## Why?
+## Why:
 _Uma explicação do porque o código necessita de tais melhorias, caso exista uma issue que explicite algum dos problemas o qual esse MR resolve, linke-a também._
 
 > Ex:
@@ -13,7 +13,7 @@ _Uma explicação do porque o código necessita de tais melhorias, caso exista u
 >   - [#25](https://google.com.br)
 >   - [#99](https://google.com.br)
 
-## Overview
+## Overview:
 _Explicitar suas mudanças de forma simples._
 
 > Ex:
@@ -22,7 +22,7 @@ _Explicitar suas mudanças de forma simples._
 >- Retirando lógica de useEffect desnecessária e utilizando props.
 >- Aumentando Coverage dos testes.
 
-## Test Environment
+## Test Environment:
 _Se for possível a aplicação de testes unitários/integração, descrever aqui como reproduzi-los e em quais ambientes tais testes ocorreram._
 
 _Se possível e ou aplicável, um overview do coverage, seja em forma de foto/gif/vídeo, fica a critério de quem está criando o MR._

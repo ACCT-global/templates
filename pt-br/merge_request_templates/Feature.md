@@ -1,14 +1,15 @@
 # Feature
 
-## Task Definition
+## Overview:
 _Aqui vai uma explicação do que o seu MR se dispôe a fazer, sempre junto do link da issue relacionada facilitando assim a navegação entre o Merge Request e a task no gitlab. (Não é legal sair procurando no board cada task de cada MR.)_
 
 > Ex: 
 >- Adicionando lógica de instore no checkout.
-> - ### **Related Issues:**
->   - [#13](https://google.com.br)
 
-## Additional/External Resources
+- ### **Related Issues:**
+  - [#13](https://google.com.br)
+
+## Additional/External Resources:
 _Links para documentação de assets ou qualquer recurso adicional se foram utilizados._
 
 - _Estão inclusos em recursos adicionais qualquer parte advinda de terceiros, normalmente Libs que não são padrões do projeto._ 
@@ -40,7 +41,7 @@ Master-Data-Info:
 }
 ```
 
-## Acceptance Requirements
+## Acceptance Requirements:
 _Aqui vem uma explicação geral de quais passos a sua feature necessita para ser aceita (estar completa)._
 
 - _Podendo ser uma cópia dos passos que já estão na task a princípio, porém sempre lembrando que essa parte da descrição será aquela levada com maior rigor para o review pois todos os passos são necessários para a aceitação dessa feature._
@@ -54,21 +55,21 @@ _Aqui vem uma explicação geral de quais passos a sua feature necessita para se
 > - [x] Opção de receber o pedido em uma mesa.
 > - [x] Opção de aviso remoto através de E-mail/Sms sobre pedido pronto.
 
-## Not Related changed 
+## Related Changes:
 
 _Alguma mudança específica que não estava prevista para ser feita, porém, foi necessária pois estava relacionada ao escopo do seu MR_
 
 >Ex:
 >- Correção de bug que não permitia armazenamento de informação no local storage através de função no contexto.
 
-## Demo/Workspace
+## Demo/Workspace:
 
 _Sempre será necessário a utilização de um workspace próprio para o desenvolvimento da feature e ou uma demonstração em forma de vídeo/gif/foto para facilitar o review._
 
 >Ex: [Vídeo/Gif/Foto demonstrando feature em funcionamento no checkout](https://gitlab.com/) ou [Workspace](https://gitlab.com/)
 
 
-## Test Environment
+## Test Environment:
 _Descrever aqui, se existir, como reproduzir testes unitários/integração e em quais ambientes tais testes ocorreram ou são possíveis de ser executados._
 
 - _Se possível e ou aplicável, um overview do coverage, seja em forma de foto/gif/vídeo, fica a critério de quem está criando o MR ou lógica interna do time._
